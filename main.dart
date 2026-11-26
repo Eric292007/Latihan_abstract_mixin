@@ -7,5 +7,9 @@ void main() {
   burung1.berat = 1000;
   burung1.jenis = 'Burung Elang';
 
-  burung1.cetakinfo();
+  burung1.infoTerbang();
+  burung1.infoRenang();
+  burung1.jumlahsayap = 2;
+  burung1.jumlahkaki = 2;
+    burung1.cetakinfo();
 }
